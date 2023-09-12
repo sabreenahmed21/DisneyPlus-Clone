@@ -1,0 +1,49 @@
+.footer {
+  display: block;
+  background-color: #07142b;
+  height: max-content;
+  min-height: 141px;
+  padding: 30px 0 20px 0;
+}
+
+.footer_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(174px, 1fr));
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer_main p {
+  color: hsla(0, 0%, 98%, 0.6);
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.footer_main .view_website .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_main .view_website .text p {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.icon {
+  font-size: 23px;
+  margin: 0 10px;
+}
+
+.footer .rightcopy {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.footer .copy {
+  font-size: 14px;
+}
+
+.footer .divv {
+  padding-top: 25px;
+}

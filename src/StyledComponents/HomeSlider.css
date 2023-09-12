@@ -1,0 +1,62 @@
+.slick-slider {
+  margin-top: 20px;
+}
+
+.slick-list {
+  overflow: initial;
+}
+
+.slick-dots {
+  bottom: -45px;
+}
+
+.slick-slider ul li.slick-active button::before {
+  color: white;
+}
+
+.slick-dots li button:before {
+  font-size: 11px;
+  color: rgb(150, 158, 171);
+}
+
+.slick-slider .slider_img {
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+}
+
+.slick-slider .slider_img a {
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 4px;
+}
+
+.slick-slider .slider_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-slider .slider_img:hover {
+  border: 4px solid rgba(249, 249, 249, 0.8);
+  transition-duration: 300ms;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 18px;
+}
+
+button {
+  z-index: 1;
+}
+
+.slick-next:before {
+  margin-left: -75px;
+}
+
+.slick-prev:before {
+  margin-right: -75px;
+}
