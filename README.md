@@ -1,4 +1,4 @@
-<h1>website using React.js & Tailwind CSS</h1>
+<h1>website using React.js & Firebase</h1>
 
 
 ### Installation
