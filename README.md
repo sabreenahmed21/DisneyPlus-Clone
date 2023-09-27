@@ -5,7 +5,7 @@
 
 1. Clone the repo
    ```sh
-   https://github.com/sabreenahmed21/Movix.git
+   https://github.com/sabreenahmed21/DisneyPlus-Clone.git
    ```
 2. install:
    ```sh
